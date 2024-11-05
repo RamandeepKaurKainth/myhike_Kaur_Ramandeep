@@ -87,6 +87,8 @@ function writeHikes() {
         last_updated: firebase.firestore.Timestamp.fromDate(new Date("January 1, 2023"))
     });
 }
+
+//  writeHikes() 
 //------------------------------------------------------------------------------
 // Input parameter is a string representing the collection we are reading from
 //------------------------------------------------------------------------------
